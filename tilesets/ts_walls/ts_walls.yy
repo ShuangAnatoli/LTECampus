@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet2",
+  "name": "ts_walls",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 4,
@@ -22,12 +22,12 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "ts_walls_3D",
-    "path": "folders/Tile Sets/ts_walls_3D.yy",
+    "name": "Foundations",
+    "path": "folders/Tile Sets/Foundations.yy",
   },
   "spriteId": {
-    "name": "Sprite21",
-    "path": "sprites/Sprite21/Sprite21.yy",
+    "name": "walls",
+    "path": "sprites/walls/walls.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
