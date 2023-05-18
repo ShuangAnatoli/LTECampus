@@ -44,6 +44,7 @@
     {"name":"Gym_Black_Shadow_32x32","order":7,"path":"sprites/Gym_Black_Shadow_32x32/Gym_Black_Shadow_32x32.yy",},
     {"name":"s_idle_up","order":1,"path":"sprites/s_idle_up/s_idle_up.yy",},
     {"name":"Classroom_and_library_Black_Shadow_32x32","order":10,"path":"sprites/Classroom_and_library_Black_Shadow_32x32/Classroom_and_library_Black_Shadow_32x32.yy",},
+    {"name":"oCamera","order":3,"path":"objects/oCamera/oCamera.yy",},
     {"name":"Generic_Black_Shadow_32x32","order":4,"path":"sprites/Generic_Black_Shadow_32x32/Generic_Black_Shadow_32x32.yy",},
     {"name":"reset_variable","order":1,"path":"scripts/reset_variable/reset_variable.yy",},
     {"name":"Bedroom_Black_Shadow_32x32","order":2,"path":"sprites/Bedroom_Black_Shadow_32x32/Bedroom_Black_Shadow_32x32.yy",},

@@ -66,6 +66,7 @@
     {"id":{"name":"Gym_Black_Shadow_32x32","path":"sprites/Gym_Black_Shadow_32x32/Gym_Black_Shadow_32x32.yy",},},
     {"id":{"name":"s_idle_up","path":"sprites/s_idle_up/s_idle_up.yy",},},
     {"id":{"name":"Classroom_and_library_Black_Shadow_32x32","path":"sprites/Classroom_and_library_Black_Shadow_32x32/Classroom_and_library_Black_Shadow_32x32.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"Generic_Black_Shadow_32x32","path":"sprites/Generic_Black_Shadow_32x32/Generic_Black_Shadow_32x32.yy",},},
     {"id":{"name":"reset_variable","path":"scripts/reset_variable/reset_variable.yy",},},
     {"id":{"name":"ts_walls","path":"tilesets/ts_walls/ts_walls.yy",},},
