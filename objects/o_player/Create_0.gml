@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3E9AD1EA
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "move_speed"
-move_speed = 3;
+move_speed = 5;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -17,3 +17,9 @@ up = 0;
 down = 0;
 right = 0;
 left = 0;
+
+/// @DnDAction : YoYo Games.Miscellaneous.Set_Window_State
+/// @DnDVersion : 1
+/// @DnDHash : 4833123F
+/// @DnDArgument : "type" "2"
+window_set_fullscreen(true);
