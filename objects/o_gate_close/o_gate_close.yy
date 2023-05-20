@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "gate_close",
-    "path": "sprites/gate_close/gate_close.yy",
+    "name": "gate_verticalclose",
+    "path": "sprites/gate_verticalclose/gate_verticalclose.yy",
   },
   "spriteMaskId": null,
   "visible": true,
