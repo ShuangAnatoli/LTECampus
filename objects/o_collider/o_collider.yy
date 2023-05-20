@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_gate_open",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,},
-  ],
+  "name": "o_collider",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "animated objects",
-    "path": "folders/Objects/animated objects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,10 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "gate_verticalopen",
-    "path": "sprites/gate_verticalopen/gate_verticalopen.yy",
+    "name": "Sprite42",
+    "path": "sprites/Sprite42/Sprite42.yy",
   },
   "spriteMaskId": null,
   "visible": true,

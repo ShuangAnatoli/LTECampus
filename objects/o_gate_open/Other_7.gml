@@ -21,9 +21,9 @@ if (!(l69508CE8_0 > 0))
 	/// @DnDParent : 69508CE8
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "o_gate_vertical_closesswaswdsa"
-	/// @DnDArgument : "layer" ""Instances_animation""
-	instance_create_layer(x + 0, y + 0, "Instances_animation", o_gate_vertical_closesswaswdsa);
+	/// @DnDArgument : "objectid" "o_gate_close"
+	/// @DnDSaveInfo : "objectid" "o_gate_close"
+	instance_create_layer(x + 0, y + 0, "Instances", o_gate_close);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
