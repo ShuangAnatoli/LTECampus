@@ -9,6 +9,5 @@ instance_destroy();
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "o_gate_open"
-/// @DnDArgument : "layer" ""Instances_animation""
 /// @DnDSaveInfo : "objectid" "o_gate_open"
-instance_create_layer(x + 0, y + 0, "Instances_animation", o_gate_open);
+instance_create_layer(x + 0, y + 0, "Instances", o_gate_open);

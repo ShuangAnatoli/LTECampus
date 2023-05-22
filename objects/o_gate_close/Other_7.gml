@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 615DDE6E
-/// @DnDArgument : "imageind" "3"
-/// @DnDArgument : "spriteind" "gate_close"
-/// @DnDSaveInfo : "spriteind" "gate_close"
-sprite_index = gate_close;
-image_index = 3;
+/// @DnDHash : 24675463
+/// @DnDArgument : "imageind" "4"
+/// @DnDArgument : "spriteind" "gate_verticalclose"
+/// @DnDSaveInfo : "spriteind" "gate_verticalclose"
+sprite_index = gate_verticalclose;
+image_index = 4;

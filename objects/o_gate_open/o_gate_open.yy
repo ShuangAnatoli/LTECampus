@@ -4,7 +4,6 @@
   "name": "o_gate_open",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "gate_open",
-    "path": "sprites/gate_open/gate_open.yy",
+    "name": "gate_verticalopen",
+    "path": "sprites/gate_verticalopen/gate_verticalopen.yy",
   },
   "spriteMaskId": null,
   "visible": true,
