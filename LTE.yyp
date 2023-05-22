@@ -124,10 +124,10 @@
     {"id":{"name":"tsClothing_Store_Black_Shadow_32x32","path":"tilesets/tsClothing_Store_Black_Shadow_32x32/tsClothing_Store_Black_Shadow_32x32.yy",},},
     {"id":{"name":"Visibile_Upstairs_System_Black_Shadow_32x32","path":"sprites/Visibile_Upstairs_System_Black_Shadow_32x32/Visibile_Upstairs_System_Black_Shadow_32x32.yy",},},
     {"id":{"name":"s_idle_down","path":"sprites/s_idle_down/s_idle_down.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"LTE_Campus","path":"rooms/LTE_Campus/LTE_Campus.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"LTE_Campus","path":"rooms/LTE_Campus/LTE_Campus.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
