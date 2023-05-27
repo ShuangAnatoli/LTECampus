@@ -26,8 +26,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "Sprite42",
-    "path": "sprites/Sprite42/Sprite42.yy",
+    "name": "s_collider",
+    "path": "sprites/s_collider/s_collider.yy",
   },
   "spriteMaskId": null,
   "visible": true,

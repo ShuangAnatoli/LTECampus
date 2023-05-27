@@ -30,8 +30,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Sprite41",
-    "path": "sprites/Sprite41/Sprite41.yy",
+    "name": "s_depth",
+    "path": "sprites/s_depth/s_depth.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3E9AD1EA
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr_1" "noone"
 /// @DnDArgument : "var" "move_speed"
+/// @DnDArgument : "var_1" "talkie"
 move_speed = 5;
+talkie = noone;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
