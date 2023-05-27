@@ -15,10 +15,7 @@
     "name": "things_and_assets",
     "path": "folders/Tile Sets/things_and_assets.yy",
   },
-  "spriteId": {
-    "name": "Birthday_party_Black_Shadow_32x32",
-    "path": "sprites/Birthday_party_Black_Shadow_32x32/Birthday_party_Black_Shadow_32x32.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
