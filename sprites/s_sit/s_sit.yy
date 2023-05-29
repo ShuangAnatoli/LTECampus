@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "LTE",
-    "path": "LTE.yyp",
+    "name": "spritesForObjects",
+    "path": "folders/Sprites/spritesForObjects.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
