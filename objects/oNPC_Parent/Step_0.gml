@@ -1,55 +1,39 @@
-/// @DnDAction : YoYo Games.Random.Get_Random_Number
-/// @DnDVersion : 1
-/// @DnDHash : 71B98886
-/// @DnDArgument : "var" "_spd"
-/// @DnDArgument : "type" "1"
-/// @DnDArgument : "min" "3"
-/// @DnDArgument : "max" "5"
-_spd = floor(random_range(3, 5 + 1));
-
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 3A37374E
-/// @DnDArgument : "speed" "_spd"
-speed = _spd;
-
-/// @DnDAction : YoYo Games.Random.Get_Random_Number
-/// @DnDVersion : 1
-/// @DnDHash : 5BA52020
-/// @DnDArgument : "var" "_dir"
-/// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "2"
-_dir = floor(random_range(0, 2 + 1));
+/// @DnDArgument : "speed" "randomSpeed"
+speed = randomSpeed;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 /// @DnDVersion : 1
 /// @DnDHash : 3FB3FD0F
-/// @DnDArgument : "direction" "_dir"
-/// @DnDArgument : "direction_relative" "1"
-direction += _dir;
+/// @DnDArgument : "direction" "randomDirection"
+direction = randomDirection;
 
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
 /// @DnDHash : 14E04476
-/// @DnDArgument : "x1" "-10"
+/// @DnDArgument : "x1" "-5"
 /// @DnDArgument : "x1_relative" "1"
-/// @DnDArgument : "y1" "-10"
-/// @DnDArgument : "x2" "10"
+/// @DnDArgument : "y1" "-5"
+/// @DnDArgument : "y1_relative" "1"
+/// @DnDArgument : "x2" "5"
 /// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "10"
+/// @DnDArgument : "y2" "5"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "obj" "o_NPC"
 /// @DnDArgument : "shape" "1"
+/// @DnDArgument : "destroylist" "false"
 /// @DnDSaveInfo : "obj" "o_NPC"
-var l14E04476_0 = collision_rectangle(x + -10, -10, x + 10, y + 10, o_NPC, true, 1);
+var l14E04476_0 = collision_rectangle(x + -5, y + -5, x + 5, y + 5, o_NPC, true, 1);
 if((l14E04476_0))
 {
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Random
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 2ABC898D
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+	/// @DnDVersion : 1
+	/// @DnDHash : 15720650
 	/// @DnDParent : 14E04476
-	/// @DnDArgument : "direction" "135,90,45,180,0,225,270,315"
-	direction = choose(135,90,45,180,0,225,270,315);
+	/// @DnDArgument : "direction" "choose(0,90,180,360)"
+	direction = choose(0,90,180,360);
 }
 
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape

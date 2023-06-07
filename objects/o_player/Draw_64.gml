@@ -6,14 +6,6 @@ draw_set_colour($FFFFFFFF & $ffffff);draw_set_alpha(1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 7A1FC204
-/// @DnDArgument : "y" "44"
-/// @DnDArgument : "caption" ""talk: ""
-/// @DnDArgument : "text" "talkie"
-draw_text_transformed(0, 44, string("talk: ") + string(talkie), 1, 1, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
 /// @DnDHash : 3D665F3C
 /// @DnDArgument : "caption" ""up: ""
 /// @DnDArgument : "text" "up"

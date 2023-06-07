@@ -10,8 +10,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oNPC_Parent",
-    "path": "objects/oNPC_Parent/oNPC_Parent.yy",
+    "name": "oNPC_Parent26",
+    "path": "objects/oNPC_Parent26/oNPC_Parent26.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
