@@ -1,9 +1,8 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 703CE712
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos" "-50"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "objectid" "o_talk"
-/// @DnDSaveInfo : "objectid" "o_talk"
-instance_create_layer(x + 0, y + -50, "Instances", o_talk);
+/// @DnDHash : 6A0D9EBE
+/// @DnDArgument : "var" "random_talk"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "min" "1"
+/// @DnDArgument : "max" "3"
+random_talk = floor(random_range(1, 3 + 1));
